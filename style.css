@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: Century Gothic; */
+}
+#wrapper{
+    background-color: #1c2338;
+}
+
+#header{
+    /* background-image: url('./assets/image/brg_header.png'); */
+    /* background-color: rgb(241, 113, 162); */
+    /* display: flex; */
+
+}
+nav{
+    display: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 48px ;
+    margin-left: 40px;
+    margin-right: 40px;
+position: relative;
+}
+.logo_menu{
+    display: flex;
+    font-size: 14px;
+}
+.logo{}
+.menu{
+margin-left: 90px;
+}
+.menu ul li{
+   display: inline-block;
+   padding: 12px 15px;
+}
+.menu ul li a{
+   text-decoration: none;
+   color: #ffffff;
+}
+.user{
+    display: flex;
+}
+
+
+.user .btn_signIn{
+    width: 147px;
+    height: 48px;
+  color: #ffffff;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+}
+.user .btn_signUp{
+    width: 147px;
+    height: 48px;
+  color: #ffffff;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  border: 2px solid #22A75D;
+box-sizing: border-box;
+border-radius: 52px;
+}
+
+.banner {
+height: auto;  
+color: #ffffff;
+width: 78%;
+margin: 0 auto;
+}
+.title_content1{
+    font-size: 36px;
+    margin-top: 100px;
+}
+.title_content2{
+    width : 513px;
+    margin: 0 auto;
+}
+.title_main_2{
+    font-size: 24px;
+}
+.title_number_2{
+    font-size: 96px;
+    color: #FFD100;
+}
+.title_content3{
+    width : 298px;
+}
+.title_number3{
+    font-size: 48px;
+    color: #2278D4;
+}
+.title_content4{
+    Width :298px;
+    float: right;
+}
+.title_number4{
+    font-size: 48px;
+    color: #E20613;
+}
+
+.title_main{
+    font-size: 20px;
+}
+.anh_banner img{
+    width: 80%;
+    margin-left: 30px;
+}
+#body{
+   
+}
+.wrap_body{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.wrap_body_2{
+    background-image: url('./assets/image/Group33.png');
+  background-repeat:no-repeat;
+  background-size: cover;
+
+
+}
+.main_content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.year{
+}
+.year_content{
+display: grid;
+grid-template-columns: auto auto auto auto auto auto;
+}
+.grid_year{
+display: flex;
+background-color: #222738;
+color: #ffffff;
+border-radius: 25px;
+margin: 10px;
+}
+.main_content{
+    width: 80%;
+    margin: 0 auto;
+}
+.content_10{
+    width :700px;
+background-color: #ffffff;
+border-radius: 10px;
+margin-left: 512px;
+margin-top: 30px;
+margin-bottom: 30px;
+}
+.content_3{
+    width :700px;
+background-color: #ffffff;
+border-radius: 10px;
+
+}
+.wrap_content_10_3{
+    margin: 10px;
+}
+.content1{
+    font-size: 32px;
+    color: #0F1320;
+}
+.contentnb1{
+    font-size: 96px;
+    color: #19A255;
+}
+.contentnb2{
+    font-size: 96px;
+   color: #FFD100;
+}
+.content3{
+    font-size: 20px;
+}
+.content2{
+    font-size: 16px;
+}
+#footer{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    width: 80%;
+    margin: 0 auto;
+    /* background-color: #0F1320; */
+}
+.menu_2{
+    text-transform: uppercase;
+    display: flex;
+justify-content: center;
+    align-items: center;
+}
+.menu_2 ul li{
+    display: inline-block;
+    padding: 12px 15px;
+ }
+ .menu_2 ul li a{
+    color: #ffffff;
+ }
+ .text{
+     color: #ffffff;
+ }
+ .item img{
+     border: 2px solid #FFFFFF;
+     box-sizing: border-box;
+     border-radius: 50%;
+    width: 18px;
+    height: 18px;
+ }
+ .top{
+     padding-bottom: 90px;
+ }
+ .bottom{
+     display: flex;
+     justify-content: space-between;
+ }
+/* end header  */
+
+@media (max-width: 376px) {
+    *{
+        margin: 0;
+        padding: 0;
+        /* font-family: Century Gothic; */
+        max-width: 100%;
+    }
+    .menu{
+        display: none;
+    }
+    nav{
+        display: block;
+    }
+    .year_content{
+        display: grid;
+        grid-template-columns: auto auto;
+        }
+    .user{
+        display: none;
+    }
+    .title_content1{
+        font-size: 32px;
+    }
+    .title_content2{
+        width : 513px;
+        margin: 0 auto;
+    }
+    .title_main_2{
+        font-size: 16px;
+    }
+    .title_number_2{
+        font-size: 49.63px;
+        color: #FFD100;
+    }
+    .title_content3{
+        width : 298px;
+    }
+    .title_number3{
+        font-size:36px;
+        color: #2278D4;
+    }
+    .title_content4{
+        Width :298px;
+    }
+    .title_number4{
+        font-size: 48px;
+        color: #E20613;
+    }
+    .title_main{
+        font-size: 16px;
+
+    }
+    .anh_banner{
+        width: 100%;
+    }
+    .content_10{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 1px;
+    max-width: 100%;
+    }
+    .content_3{
+        max-width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    }
+    .menu_2{
+        display: none;
+    }
+    .bottom{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    }
+    .wrap_content_10_3{
+        margin: 10px;
+    }
+    .content1{
+        font-size: 18px;
+        color: #0F1320;
+    }
+    .contentnb1{
+        font-size: 40.3px;
+        color: #19A255;
+    }
+    .contentnb2{
+        font-size: 40.3px;
+       color: #FFD100;
+    }
+    .content3{
+        font-size: 14px;
+    }
+    #footer{
+        width: 100%;
+        margin: 20px;
+    }
+    .checkbtn{
+        display: block;
+        margin-left: 120px;
+      }
+      #check{
+          display: none;
+      }
+      ul{
+        position: fixed;
+        width: 30%%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+      }
+      nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+      }
+      nav ul li a{
+        font-size: 20px;
+        text-decoration: none;
+        color: #ffffff;
+      }
+      a:hover,a.active{
+        background: none;
+        color: #ffffff;
+      }
+      #check:checked ~ ul{
+        left: 0;
+      }
+      nav i {
+          color: #FFFFFF;
+      }
+      .grid_year{
+          margin: 5px 10px 5px 5px;
+          /* margin: auto; */
+      }
+      #header{
+      }
+}
